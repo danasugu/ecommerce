@@ -9,7 +9,7 @@ class Home extends CI_Controller {
 	}
 
 	public function add_item() {
-		$this->load->helper('form');
+		  $this->load->helper('form');
 			$this->load->view('add_item');
 	}
 }
