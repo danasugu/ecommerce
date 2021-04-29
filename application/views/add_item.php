@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      <div class="row">
      
      <h1>Add item:</h1>
-<?=form_open_multipart()?>
+<?php=form_open_multipart()?>
      <form>
   <div class="form-group">
     <label for="title">Title</label>
