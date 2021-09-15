@@ -13,15 +13,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
  <div class="container">
-   <div class="row">
+<dic class="col-12">
+     <div class="row">
+     
+     <h1>Add item:</h1>
      <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
+    <label for="description">Description</label>
+    <textarea class="form-control" id="description"></textarea>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
   <div class="form-group form-check">
@@ -31,6 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
    </div>
+</dic>
  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
