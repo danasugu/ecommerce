@@ -27,6 +27,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <input type="number" class="form-control" min="0" step="0.01" id="price" name="price">
   </div>
   <div class="form-group">
+    <label for="image">Image</label>
+    <input type="file" class="form-control-file" id="image">
+  </div>
+  <div class="form-group">
     <label for="description">Description</label>
     <textarea class="form-control" id="description" name="description"></textarea>
   </div>
