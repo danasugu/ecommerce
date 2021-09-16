@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <label for="description">Description</label>
     <textarea class="form-control" id="description" name="description"></textarea>
   </div>
-  <button type="submit" class="btn btn-succes">Add new</button>
+  <button type="submit" class="btn btn-success">Add new</button>
 </form>
    </div>
 </dic>
