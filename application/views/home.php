@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
  <div class="container">
-<dic class="col-12">
+<dic class="col-6">
      <div class="row">
      
      <h1>Add item:</h1>
@@ -22,11 +22,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <label for="title">Title</label>
     <input type="text" class="form-control" id="title" name="title">
   </div>
+   <div class="form-group">
+    <label for="price">Price</label>
+    <input type="number" class="form-control" min="0" step="0.01" id="price" name="price">
+  </div>
   <div class="form-group">
     <label for="description">Description</label>
     <textarea class="form-control" id="description" name="description"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Add new</button>
+  <button type="submit" class="btn btn-succes">Add new</button>
 </form>
    </div>
 </dic>
