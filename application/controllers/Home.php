@@ -9,6 +9,6 @@ class Home extends CI_Controller {
 	}
 
 	public function add_item() {
-			$this->load->view('home');
+			$this->load->view('add_item');
 	}
 }
