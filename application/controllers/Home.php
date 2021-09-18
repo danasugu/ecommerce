@@ -22,8 +22,12 @@ class Home extends CI_Controller {
 
 			$this->load->view('add_item');
 	}
-	        public function do_upload()
+	        private function do_upload()
         {
+						$config=[
+							
+						];
+
                 $config['upload_path']          = './uploads/';
                 $config['allowed_types']        = 'gif|jpg|png';
                 $config['max_size']             = 100;
