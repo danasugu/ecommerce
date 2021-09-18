@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
  <div class="container">
-<dic class="col-6">
+<div class="col-6">
      <div class="row">
      
      <h1>Add item:</h1>
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <button type="submit" class="btn btn-success">Add new</button>
 <?=form_close()?>
    </div>
-</dic>
+</div>
  </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
