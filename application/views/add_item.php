@@ -17,6 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      <div class="row">
      
      <h1>Add item:</h1>
+     <?=validation_errors()?>
     <?=form_open_multipart()?>
   <div class="form-group">
     <label for="title">Title</label>
