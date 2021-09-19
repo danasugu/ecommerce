@@ -17,12 +17,12 @@ class Home extends CI_Controller {
 					->set_rules('price', 'Price', 'required|numeric|max_length[0]');
                 if ($this->form_validation->run())
                 {
-                     
+        
                 }
 
 			$this->load->view('add_item');
 	}
-	        private function do_upload()
+	private function do_upload()
         {
 						$config=[
 							
